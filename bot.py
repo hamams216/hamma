@@ -5,7 +5,7 @@ import json
 import random
 
 count = int(input("Your energy: "))
-REQUEST_LIMIT = 67  # الحد الأقصى للطلبات قبل التوقف
+REQUEST_LIMIT = 80  # الحد الأقصى للطلبات قبل التوقف
 PAUSE_DURATION = 10 * 60  # مدة التوقف بالثواني (10 دقائق)
 
 def get_current_timestamp():
